@@ -1,4 +1,4 @@
-exports.Words = ["PRINCE", 
+module.exports = ["PRINCE", 
 "WAR", 
 "DEATH", 
 "FAMINE", 

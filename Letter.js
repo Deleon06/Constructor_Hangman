@@ -1,6 +1,6 @@
 function Letters(key) {
     //creating
-    this.visible = !/[a-z1-9]/i.test(key):
+    this.visible = !/[a-z1-9]/i.test(key);
 
     this.key = key;
 }
@@ -17,7 +17,7 @@ Letters.prototype.toString = function() {
 };
 
 Letters.prototype.guess = function (keyattempt) {
-    if (keyattempt.toLowerCase() === this.char.toLowerCase()) {
+    if (keyattempt.toLowerCase() === this.key.toLowerCase()) {
         this.visible = true;
         return true;
     }
